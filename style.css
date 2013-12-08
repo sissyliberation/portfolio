@@ -33,10 +33,9 @@ margin-bottom:0;
  #footer a, #footer:visited {
 color: #FFBBFF;
 }
-#footer a:hover {
+/*#footer a:hover {
   text-decoration: none;
-  color:white;
-}
+}*/
 
 .desc {
   background-image:url(images/4.png);

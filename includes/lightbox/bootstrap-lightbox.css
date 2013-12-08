@@ -78,6 +78,5 @@ body.lightbox-open, .lightbox-open .navbar-fixed-top, .lightbox-open .navbar-fix
 }
 
 .lightbox a {
-    color: white;
-    text-decoration: underline;
+    color:#FFBBFF;
 }
