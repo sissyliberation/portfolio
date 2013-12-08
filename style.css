@@ -11,7 +11,6 @@ body {
   margin-top:0;
   padding-top:60px;
   padding-bottom:60px;
-  background-image: url(images/black_lines.png);
   text-align: center;
 }
 .header h1 {
@@ -23,9 +22,11 @@ body {
   text-align: center;
   width:100%;
   background-color: #333333;
+  
+}
+.header, #footer {
   background-image:url(images/black_lines.png);
 }
-
 #footer p {
 text-align: center;
 margin-bottom:0;
@@ -33,16 +34,10 @@ margin-bottom:0;
  #footer a, #footer:visited {
 color: #FFBBFF;
 }
-/*#footer a:hover {
-  text-decoration: none;
-}*/
-
-.desc {
-  background-image:url(images/4.png);
-}
 
 h1, h2, h3, h4, h5, h6 {
   color:#FFBBFF;
+  text-shadow: 2px 2px #888;
 }
 
 .img {
@@ -67,4 +62,4 @@ h1, h2, h3, h4, h5, h6 {
 
 .bold {
   font-weight:bold;
-}
+} 
